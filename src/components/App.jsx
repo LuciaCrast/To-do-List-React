@@ -7,7 +7,7 @@ function App() {
   const [allTasks, setAllTask] = useState([]);
 
   function handleChange({ target }) {
-    const { name, value } = tart;
+    const { name, value } = target;
     setNewTask((prevState) => ({
       ...prevState,
       [name]: value,
