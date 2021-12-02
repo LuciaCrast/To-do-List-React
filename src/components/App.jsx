@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NewTask } from "./NewTask";
 import { TasksList } from "./TasksList";
+import "./app.scss";
 
 function App() {
   const [newTask, setNewTask] = useState({});
@@ -29,8 +30,11 @@ function App() {
   }
 
   return (
-    <main>
-      <h1>Tasks</h1>
+    <main className="main">
+      <header className="header">
+        <h1 className="header__title">Your To Do List</h1>
+      </header>
+      <h2 className="taskTitle"> Add new Task</h2>
       <NewTask
         newTask={newTask}
         handleChange={handleChange}
