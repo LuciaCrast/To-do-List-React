@@ -1,9 +1,11 @@
 import React from "react";
+import "./newtask.scss";
 
 function NewTask({ newTask, handleChange, handleSubmit }) {
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="form" onSubmit={handleSubmit}>
       <input
+        className="form__textInput"
         name="title"
         placeholder="New task"
         value={newTask.title || ""}
@@ -12,6 +14,7 @@ function NewTask({ newTask, handleChange, handleSubmit }) {
       {!newTask.title ? null : (
         <>
           <textarea
+            className="form__descriptionInput"
             name="description"
             placeholder="Details..."
             value={newTask.description || ""}
