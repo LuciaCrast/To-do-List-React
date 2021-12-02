@@ -1,0 +1,23 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://www.wallpapertip.com/wmimgs/81-810264_simple-background-wallpaper-design-ultra-hd-desktop-fondos.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.header {
+  background-color: #7a7dda;
+  width: 100vw;
+  &__title {
+    background-color: #7a7dda;
+    text-align: center;
+    color: #f4f1bb;
+    font-family: "Nanum Pen Script", cursive;
+  }
+}
