@@ -32,7 +32,7 @@ function App() {
   return (
     <main className="main">
       <header className="header">
-        <h1 className="header__title">Your To Do List</h1>
+        <h1 className="header__title">Your To-Do List</h1>
       </header>
       <h2 className="taskTitle"> Add new Task</h2>
       <NewTask
