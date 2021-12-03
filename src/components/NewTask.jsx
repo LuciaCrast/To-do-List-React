@@ -20,7 +20,9 @@ function NewTask({ newTask, handleChange, handleSubmit }) {
             value={newTask.description || ""}
             onChange={handleChange}
           />
-          <button type="submit">Add Task</button>
+          <button className="form__button" type="submit">
+            Add Task
+          </button>
         </>
       )}
     </form>
