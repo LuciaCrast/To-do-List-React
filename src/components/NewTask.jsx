@@ -4,6 +4,7 @@ import "./newtask.scss";
 function NewTask({ newTask, handleChange, handleSubmit }) {
   return (
     <form className="form" onSubmit={handleSubmit}>
+      <h2 className="form__taskTitle"> Add new Task</h2>
       <input
         className="form__textInput"
         name="title"

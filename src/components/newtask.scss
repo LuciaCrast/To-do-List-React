@@ -1,4 +1,11 @@
 .form {
+  margin: 20px 0;
+  &__taskTitle {
+    color: #f4f1bb;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+  }
   display: flex;
   flex-direction: column;
   &__textInput {
@@ -15,5 +22,12 @@
   }
   &__button {
     cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+    color: #3c3954;
+    font-weight: bold;
+    background-color: white;
+    padding: 3px 0;
+    border-radius: 5px;
+    border: solid rgba(0, 0, 0, 0.466) 2px;
   }
 }
