@@ -34,7 +34,7 @@ function App() {
       <header className="header">
         <h1 className="header__title">Your To-Do List</h1>
       </header>
-      <h2 className="taskTitle"> Add new Task</h2>
+
       <NewTask
         newTask={newTask}
         handleChange={handleChange}
