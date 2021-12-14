@@ -1,32 +1,37 @@
 * {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
-
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
 body {
   padding: 0;
   margin: 0;
+  background-color: #3c3954;
 }
 .main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
-
-  background-image: url("https://www.wallpapertip.com/wmimgs/81-810264_simple-background-wallpaper-design-ultra-hd-desktop-fondos.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .header {
   background-color: #7a7dda;
   width: 100vw;
+  padding: 20px;
   &__title {
     text-align: center;
     color: #f4f1bb;
     font-family: "Nanum Pen Script", cursive;
     font-size: 40px;
   }
-}
-.taskTitle {
-  color: #f4f1bb;
-  font-family: "Quicksand", sans-serif;
 }
